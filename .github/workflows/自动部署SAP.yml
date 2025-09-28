@@ -85,11 +85,11 @@ jobs:
           # 免费区域
           "SG(free)")
             echo "CF_API=https://api.cf.ap21.hana.ondemand.com" >> $GITHUB_ENV
-            echo "APP_NAME=free-sg$RANDOM_STR" >> $GITHUB_ENV
+            echo "APP_NAME=SAP-SG-1" >> $GITHUB_ENV
             ;;
           "US(free)")
             echo "CF_API=https://api.cf.us10-001.hana.ondemand.com" >> $GITHUB_ENV
-            echo "APP_NAME=free-us$RANDOM_STR" >> $GITHUB_ENV
+            echo "APP_NAME=SAP-US-1" >> $GITHUB_ENV
             ;;
           # AWS 区域
           "AWS-AU(Sydney)")
